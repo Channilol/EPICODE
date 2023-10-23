@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding-top: 1.7em;
+    padding-bottom: 4.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.sidebar-icon a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+    cursor: pointer;
+}
+
+#src-wrapper {
+    display: flex;
+    height: 50%;
+    width: 30%;
+}
+
+#src-wrapper input {
+    width: 100%;
+    padding: 0 1em;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+#topbar-icon {
+    font-size: 2em;
+    padding: 0 0.5em;
+}
+
+#topbar-icon ion-icon {
+    cursor: pointer;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.7em;
+}
+
+#search-button {
+    padding: 0 0.7em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    height: 100%;
+}
+
+#content-row1 {
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
+}
+
+.thumbnail img {
+    width: 95%;
+    cursor: pointer;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon img {
+    width: 5vh;
+    cursor: pointer;
+}
+
+.text-content h4 {
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    margin-left: 2vh;
+    cursor: pointer;
+}
+
+.text-content p {
+    margin-top: 0.1em;
+    margin-left: 2vh;
+    cursor: pointer;
+}
+
+#content-row2 {
+    display: flex;
+    margin-top: 6vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
+}
